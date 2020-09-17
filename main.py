@@ -11,7 +11,7 @@ while odpowiedz != losuj:
     razy += 1
     odpowiedz = int(input("Podaj liczbę: "))
     if odpowiedz > losuj:
-        print("Wylosowana liczba jest mniejsza od wpisanej przez ciebie!")
+        print("Wylosowana liczba jest mniejsza od tej napisanej przez ciebie!")
     elif odpowiedz < losuj:
-        print("Wylosowana liczba jest większa od wpisanej przez ciebie!")
-print("Gratulacje! Ogadłeś prawidłową liczbę za", razy, "razem.")
+        print("Wylosowana liczba jest większa od tej wpisanej przez ciebie!")
+print(f"Gratulacje! Ogadłeś prawidłową liczbę za {razy} razem.")
